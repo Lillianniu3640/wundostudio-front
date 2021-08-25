@@ -156,6 +156,11 @@ export default {
     },
     deleteWork: function (index) {
       this.works.splice(index, 1)
+      this.$swal({
+        icon: 'warning',
+        title: 'Are you sure?',
+        text: 'Delete the work?'
+      })
     },
     async submitModal () {
       try {
