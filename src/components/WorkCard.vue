@@ -4,6 +4,8 @@
       overlay
       img-top
       :img-src="work.image"
+      :title="work.name"
+      :sub-title="work.description"
       bg-variant="default"
     )
 </template>
@@ -35,8 +37,8 @@ export default {
     opacity: 1;
     background: linear-gradient(
       45deg,
-      rgba(29, 236, 197, 0.5),
-      rgba(91, 14, 214, 0.5) 100%
+      rgba(29, 236, 197, 0.3),
+      rgba(91, 14, 214, 0.3) 100%
     );
   }
 </style>
