@@ -1,6 +1,6 @@
 <template lang="pug">
   b-card-group
-    b-card.work-card.mt-5.mr-2.text-dark(
+    b-card.work-card.mt-5.mr-2.text-light(
       overlay
       img-top
       :img-src="work.image"
