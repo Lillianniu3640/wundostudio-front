@@ -27,13 +27,16 @@ export default {
       rgba(29, 236, 197, 0.5),
       rgba(91, 14, 214, 0.5) 100%
     );
-    z-index: 999;
   }
   .card-body.card-img-overlay{
     opacity: 0;
   }
   .card-body.card-img-overlay:hover{
     opacity: 1;
-    z-index: 1000;
+    background: linear-gradient(
+      45deg,
+      rgba(29, 236, 197, 0.5),
+      rgba(91, 14, 214, 0.5) 100%
+    );
   }
 </style>
