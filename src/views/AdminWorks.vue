@@ -222,7 +222,7 @@ export default {
   position absolute
   top 0
   left 0
-  transform translate(0%,10%)
+  transform translate(0%,5%)
 h4
   display flex
   padding-left 2rem
