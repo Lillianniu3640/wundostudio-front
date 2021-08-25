@@ -85,6 +85,11 @@ export default {
         title: 'Success',
         text: 'Thank you, I would reply soon.'
       })
+      this.message = {
+        name: '',
+        email: '',
+        text: ''
+      }
     }
   }
 }
