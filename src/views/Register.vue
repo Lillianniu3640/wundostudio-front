@@ -19,6 +19,7 @@
               required
               placeholder="Account"
               :state="state.account"
+              autocomplete="off"
             )
           b-form-group(
             label=""
@@ -33,6 +34,7 @@
               required
               placeholder="Password"
               :state="state.password"
+              autocomplete="off"
             )
           b-form-group(
             label=""
@@ -47,6 +49,7 @@
               required
               placeholder="E-mail"
               :state="state.email"
+              autocomplete="off"
             )
           .text-center
             b-btn.rounded-pill.btn-block(variant="info" type="submit") Submit
