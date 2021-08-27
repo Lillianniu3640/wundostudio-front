@@ -4,5 +4,5 @@
 ```
 Vue Cli project
 ```
-### Wundo Studio
+### Wundo Studio Website
 See [Configuration Reference](https://lillianniu3640.github.io/wundostudio-front/#/).
